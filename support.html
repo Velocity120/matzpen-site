@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מצפן — תמיכה</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Karantina:wght@400;700&display=swap">
+<style>
+  :root {
+    --paper: #F0EBE0; --sheet: #F6F2E8; --ink: #1C2421;
+    --muted: #8A8474; --line: #D5CDBB; --hot: #C7663F;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #141C19; --sheet: #1B2622; --ink: #E8E2D4;
+      --muted: #8E978F; --line: #2E3A34; --hot: #E38C5C;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #141C19; --sheet: #1B2622; --ink: #E8E2D4;
+    --muted: #8E978F; --line: #2E3A34; --hot: #E38C5C;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: Assistant, "Segoe UI", system-ui, sans-serif;
+    font-size: 16px; line-height: 1.65;
+  }
+  .wrap { max-width: 660px; margin: 0 auto; padding: 0 20px; padding-block: 48px 64px; }
+  header { border-bottom: 1px solid var(--ink); padding-bottom: 18px; }
+  .kicker { font-size: 10.5px; font-weight: 700; letter-spacing: 1.4px; color: var(--muted); margin: 0 0 6px; }
+  h1 { font-family: Karantina, Assistant, sans-serif; font-weight: 700; font-size: 56px; line-height: .95; margin: 0; }
+  h2 {
+    font-family: Karantina, Assistant, sans-serif; font-weight: 700;
+    font-size: 30px; line-height: 1; margin: 32px 0 8px;
+    padding-top: 18px; border-top: 1px solid var(--line);
+  }
+  p { margin: 0 0 12px; }
+  a { color: var(--hot); }
+  .lead { font-size: 18px; margin-top: 22px; }
+  .card {
+    background: var(--sheet); border: 1px solid var(--line);
+    border-radius: 4px; padding: 16px 18px; margin: 18px 0;
+  }
+  dl { margin: 0; }
+  dt { font-weight: 700; margin-top: 14px; }
+  dt:first-child { margin-top: 0; }
+  dd { margin: 4px 0 0; color: var(--muted); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--ink); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">מצפן · אפליקציה לגילוי כישור ותרגול יומי</p>
+  <h1>תמיכה</h1>
+</header>
+
+<p class="lead">שאלה, תקלה, רעיון, או בקשה למחוק חשבון — כותבים מייל ואני עונה.</p>
+
+<div class="card">
+  <a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a>
+</div>
+
+<h2>שאלות שחוזרות</h2>
+<dl>
+  <dt>אני לא יודעת איזה כישור לבחור.</dt>
+  <dd>זה בדיוק מה שהאטלס עושה. אפשר לסובב את החוגה ולהסתכל, למלא כיול קצר של ארבע שאלות, או ללחוץ "סיבוב אקראי" ולתת למחוג להחליט.</dd>
+
+  <dt>מה עושים בפועל כל יום?</dt>
+  <dd>זו ההחלטה שלך. לכל כישור יש כיוונים — איפה לחפש, מה לנסות, מה לחפש ביוטיוב — אבל לא מתכון. האפליקציה סופרת את הימים ומציירת את ההר.</dd>
+
+  <dt>אי אפשר לתרגל כל יום.</dt>
+  <dd>בכרטיס הכישור בוחרים באילו ימים בשבוע. מסע של סופי שבוע סופר רק אותם, והרצף לא נשבר בגלל יום שלישי. אפשר תמיד להחתים גם ביום שלא נבחר — זו פשוט טבעת נוספת.</dd>
+
+  <dt>שכחתי להחתים אתמול.</dt>
+  <dd>לא נורא, וזה גם לא מוחק כלום. אפשר לפתוח את הדרכון ולערוך יום קודם.</dd>
+
+  <dt>איך מוחקים חשבון?</dt>
+  <dd>מייל עם הנושא "מחיקת חשבון" מהכתובת שאיתה נפתח החשבון. המחיקה מתבצעת תוך 30 יום.</dd>
+
+  <dt>התזכורת לא מגיעה.</dt>
+  <dd>לבדוק שההרשאה להתראות מאושרת בהגדרות הטלפון, ושיש מסע פעיל — תזכורת נשלחת רק כשיש מסע שרץ.</dd>
+</dl>
+
+<h2>פרטיות</h2>
+<p><a href="./">מדיניות הפרטיות</a> — מה נאסף, איפה זה נשמר, ואיך מוחקים.</p>
+
+<footer>
+  מצפן · <a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a>
+</footer>
+
+</div>
+</body>
+</html>
