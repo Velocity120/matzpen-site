@@ -71,24 +71,9 @@
   }
   h2:first-of-type { border-top: 0; }
   p { margin: 0 0 12px; }
-  ul { margin: 0 0 12px; padding-inline-start: 20px; }
-  li { margin-bottom: 6px; }
-  strong { font-weight: 700; }
   a { color: var(--hot); }
 
   .lead { font-size: 18px; }
-  .note {
-    background: var(--sheet);
-    border: 1px solid var(--line);
-    border-radius: 4px;
-    padding: 14px 16px;
-    margin: 18px 0;
-    font-size: 14.5px;
-  }
-  table { width: 100%; border-collapse: collapse; font-size: 14.5px; margin: 10px 0 14px; }
-  th, td { text-align: right; padding: 9px 0; border-top: 1px solid var(--line); vertical-align: top; }
-  th { font-size: 10.5px; letter-spacing: 1.4px; color: var(--muted); font-weight: 700; }
-  td:first-child { width: 38%; font-weight: 600; }
 
   footer {
     margin-top: 40px; padding-top: 16px;
@@ -97,103 +82,51 @@
   }
   .en { direction: ltr; text-align: left; }
   .en h2 { font-family: Assistant, sans-serif; font-size: 22px; }
-  .en td:first-child { width: 38%; }
-  .en th, .en td { text-align: left; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <header>
-  <p class="kicker">מצפן · אפליקציה לגילוי כישור ותרגול יומי</p>
+  <p class="kicker">מצפן</p>
   <h1>מדיניות פרטיות</h1>
-  <p class="sub">בתוקף מ־16 בספטמבר 2026</p>
+  <p class="sub">בתוקף מ־20 בספטמבר 2026</p>
 </header>
 
-<p class="lead">מצפן היא אפליקציה קטנה. היא שומרת את מה שצריך כדי שההר שלך יגדל, ולא יותר מזה. אין בה פרסומות, אין מעקב, ואין העברה של מידע למפרסמים.</p>
+<p class="lead">מצפן שומרת את מה שצריך כדי שהמסע יעבוד, ולא יותר מזה. אין בה פרסומות ואין בה כלי מעקב או ניתוח.</p>
 
-<h2>מה נאסף</h2>
-<table>
-  <tr><th>המידע</th><th>מתי</th></tr>
-  <tr>
-    <td>כתובת אימייל</td>
-    <td>כשנפתח חשבון — באימייל וסיסמה, או דרך Google או Apple.</td>
-  </tr>
-  <tr>
-    <td>שם ותמונת פרופיל</td>
-    <td>רק בהתחברות דרך Google או Apple, ורק אם הם קיימים בחשבון. השם מוצג בתעודה שלך באפליקציה.</td>
-  </tr>
-  <tr>
-    <td>המסעות שלך</td>
-    <td>הכישור שבחרת, אורך המסע וימי התרגול, התאריכים שבהם החתמת, הדירוג של כל יום, וההערות שכתבת ביומן.</td>
-  </tr>
-  <tr>
-    <td>תשובות השאלון</td>
-    <td>אם מילאת את הכיול — כדי להתאים המלצות.</td>
-  </tr>
-  <tr>
-    <td>הגדרות</td>
-    <td>מצב יום/לילה, ושעת התזכורת היומית.</td>
-  </tr>
-</table>
-
-<p><strong>מה לא נאסף:</strong> מיקום, אנשי קשר, תמונות, מיקרופון, היסטוריית גלישה, מזהי פרסום. אין באפליקציה כלי אנליטיקה ואין ערכות פרסום.</p>
+<h2>מה נשמר</h2>
+<p>כשפותחים חשבון נשמרת כתובת האימייל. מי שנכנס דרך Google או Apple, נשמרים גם השם ותמונת הפרופיל אם הם קיימים שם, והשם מופיע בתעודה באפליקציה.</p>
+<p>תוך כדי השימוש נשמר מה שקשור למסעות: הכישור שנבחר, אורך המסע וימי התרגול, הימים שהוחתמו, הדירוג שניתן לכל יום וההערות שנכתבו ביומן. אם מולא הכיול נשמרות גם התשובות שלו, וכך גם שעת התזכורת והבחירה בין מצב יום ללילה.</p>
+<p>לא נאסף מיקום, לא אנשי קשר, לא תמונות מהטלפון ולא מזהי פרסום.</p>
 
 <h2>איפה זה נשמר</h2>
-<p>לפני התחברות — הכול נשאר על המכשיר בלבד. אחרי התחברות, המידע נשמר בחשבון שלך בשירות <strong>Google Firebase</strong> (Firebase Authentication ו‑Cloud Firestore), בשרתים באזור ישראל (me-west1), כדי שיהיה זמין גם אם תחליפי מכשיר.</p>
-<p>כללי הגישה מוגדרים כך שכל חשבון קורא וכותב את המידע של עצמו בלבד. משתמשים אחרים לא רואים את המסעות שלך.</p>
+<p>לפני התחברות הכול נשאר על המכשיר בלבד. אחרי התחברות המידע נשמר בחשבון האישי בשירות Google Firebase, בשרתים בישראל, כדי שיהיה זמין גם במעבר למכשיר אחר. ההרשאות בנויות כך שכל חשבון ניגש רק למידע של עצמו, ומשתמשים אחרים לא רואים אותו.</p>
+<p>מלבד Firebase, ומלבד Google או Apple למי שבחר להתחבר דרכם, אין עוד גורם שמקבל את המידע. הוא לא נמכר ולא מועבר לאף אחד.</p>
 
-<h2>מי עוד מעורב</h2>
-<ul>
-  <li><strong>Google Firebase</strong> — אחסון וניהול החשבונות. <a href="https://firebase.google.com/support/privacy">מדיניות הפרטיות</a>.</li>
-  <li><strong>Google Sign‑In / Apple Sign in with Apple</strong> — רק אם בחרת להתחבר דרכם, וכדי לאמת שזו את.</li>
-</ul>
-<p>אין צד שלישי נוסף. המידע לא נמכר, לא מושכר ולא מועבר למפרסמים.</p>
+<h2>התזכורת היומית</h2>
+<p>נוצרת על הטלפון עצמו ונשארת עליו. השעה שנבחרה לא נשלחת לשום מקום, ואפשר לכבות את התזכורת בכל רגע במסך "אני".</p>
 
-<h2>תזכורות</h2>
-<p>התזכורת היומית נוצרת על המכשיר עצמו ונשארת עליו. אין שרת ששולח אותה, ושעת התזכורת לא נשלחת לשום מקום. אפשר לכבות אותה בכל רגע במסך "אני".</p>
+<h2>מחיקת חשבון</h2>
+<p>אפשר למחוק את החשבון מתוך האפליקציה, במסך "אני". המחיקה מוחקת את מה ששמור על המכשיר ואת מה ששמור בענן, היא מיידית, ואחריה אין אפשרות לשחזר. למי שאין גישה לאפליקציה אפשר לכתוב למייל שלמטה מהכתובת שאיתה נפתח החשבון.</p>
 
 <h2>ילדים</h2>
-<p>האפליקציה לא מיועדת לילדים מתחת לגיל 13, ולא נאסף ביודעין מידע מהם.</p>
+<p>האפליקציה לא מיועדת לילדים מתחת לגיל 13.</p>
 
-<h2>הזכויות שלך</h2>
-<ul>
-  <li><strong>לראות</strong> — כל מה שנשמר מוצג באפליקציה עצמה: הדרכון, התעודה, וסיכומי המסעות.</li>
-  <li><strong>למחוק</strong> — מתוך האפליקציה: מסך "אני" ← <strong>מחיקת חשבון</strong>. המחיקה מיידית ומוחקת גם את מה ששמור על המכשיר וגם את מה ששמור בענן. אין עותק שנשאר אצלנו.</li>
-  <li><strong>לצאת</strong> — יציאה מהחשבון מוחקת את המידע מהמכשיר; העותק בענן נשאר עד שתבקשי מחיקה.</li>
-</ul>
-
-<div class="note">
-  <strong>מחיקת חשבון:</strong> באפליקציה — "אני" ← מחיקת חשבון. אם אין גישה
-  לאפליקציה, אפשר לשלוח מייל עם הנושא "מחיקת חשבון" אל
-  <a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a>
-  מהכתובת שאיתה נפתח החשבון.
-</div>
-
-<h2>שינויים</h2>
-<p>אם המדיניות תתעדכן, התאריך בראש העמוד ישתנה. שינוי מהותי יוצג גם באפליקציה.</p>
-
-<h2>יצירת קשר</h2>
-<p><a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a></p>
+<h2>שינויים ויצירת קשר</h2>
+<p>אם משהו במדיניות ישתנה, התאריך בראש העמוד יתעדכן. לשאלות ולבקשות: <a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a></p>
 
 <div class="en">
-  <h2>Privacy Policy (English summary)</h2>
-  <p>Matzpen is a habit-tracking app for learning a skill. It has no ads, no analytics and no third-party trackers.</p>
-  <table>
-    <tr><th>Data</th><th>Purpose</th></tr>
-    <tr><td>Email address</td><td>Account creation and sign-in (email/password, Google, or Apple).</td></tr>
-    <tr><td>Name and profile photo</td><td>Shown on your in-app certificate. Only from Google/Apple sign-in.</td></tr>
-    <tr><td>Journey data</td><td>Chosen skill, practice days, check-in dates, daily rating, journal notes.</td></tr>
-    <tr><td>Quiz answers, settings</td><td>Recommendations, day/night mode, reminder time.</td></tr>
-  </table>
-  <p>No location, contacts, photos, microphone, browsing history or advertising identifiers are collected. Data is stored in Google Firebase (Authentication and Cloud Firestore, me-west1 region). Security rules limit each account to its own data. Daily reminders are scheduled locally on the device.</p>
-  <p>You can delete your account and all associated data from inside the app: the "אני" tab, then <strong>מחיקת חשבון</strong>. Deletion is immediate and covers both the device and the cloud copy. If you cannot reach the app, email
-  <a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a> with the subject "Account deletion" from the address used to sign up.</p>
-  <p>Not directed to children under 13.</p>
+  <h2>Privacy policy, in short</h2>
+  <p>Matzpen helps a person pick one skill and practice it daily. It has no ads and no analytics or tracking tools.</p>
+  <p>Creating an account stores an email address. Signing in with Google or Apple also stores the name and profile photo if the account has them. While the app is in use it stores what the journeys are made of: the chosen skill, its length and practice days, the days that were checked in, the daily rating and the journal notes, plus the quiz answers, the reminder time and the day or night setting. No location, contacts, photos or advertising identifiers are collected.</p>
+  <p>Before signing in everything stays on the device. After signing in the data is kept in a personal account on Google Firebase, on servers in Israel, so it is there on a new device as well. Security rules limit each account to its own data. Apart from Firebase, and from Google or Apple for those who sign in through them, nothing is shared with anyone, and nothing is sold.</p>
+  <p>An account can be deleted from inside the app, in the "אני" tab. Deletion covers both the device and the cloud copy, happens immediately and cannot be undone. Anyone without access to the app can write to <a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a> from the address the account was opened with.</p>
+  <p>The app is not intended for children under 13.</p>
 </div>
 
 <footer>
-  מצפן · עודכן 16.9.2026 · <a href="mailto:mirablumkin@gmail.com">יצירת קשר</a>
+  מצפן · עודכן 20.9.2026 · <a href="mailto:mirablumkin@gmail.com">mirablumkin@gmail.com</a>
 </footer>
 
 </div>
